@@ -1,0 +1,30 @@
+{
+    "name": "pebble-activity-indicator-layer",
+    "description": "A \"material design\"-style activity indicator for Pebble.",
+    "author": "Alexsander Akers <me@a2.io>",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/a2/pebble-activity-indicator-layer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/a2/pebble-activity-indicator-layer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/a2/pebble-activity-indicator-layer/issues"
+    },
+    "files": ["dist.zip"],
+    "keywords": ["pebble-package"],
+    "dependencies": {},
+    "pebble": {
+        "projectType": "package",
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "resources": {
+            "media": []
+        }
+    }
+}

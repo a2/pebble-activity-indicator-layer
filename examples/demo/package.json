@@ -1,0 +1,28 @@
+{
+    "name": "activity-indicator-layer-demo",
+    "author": "Alexsander Akers",
+    "version": "1.0.0",
+    "keywords": ["pebble-app"],
+    "private": true,
+    "dependencies": {
+        "pebble-activity-indicator-layer": "1.0.0"
+    },
+    "pebble": {
+        "displayName": "Activity Indicator Demo",
+        "uuid": "5b603423-eaad-4186-b504-c14ed2dcd2cd",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "watchapp": {
+            "watchface": false
+        },
+        "messageKeys": [],
+        "resources": {
+            "media": []
+        }
+    }
+}

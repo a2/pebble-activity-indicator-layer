@@ -1,0 +1,20 @@
+#pragma once
+
+#include <pebble.h>
+
+struct ActivityIndicatorLayer;
+typedef struct ActivityIndicatorLayer ActivityIndicatorLayer;
+
+ActivityIndicatorLayer *activity_indicator_layer_create(GRect frame);
+void activity_indicator_layer_destroy(ActivityIndicatorLayer *activity_indicator_layer);
+
+Layer *activity_indicator_layer_get_layer(const ActivityIndicatorLayer *activity_indicator_layer);
+
+bool activity_indicator_layer_get_animating(const ActivityIndicatorLayer *activity_indicator_layer);
+void activity_indicator_layer_set_animating(ActivityIndicatorLayer *activity_indicator_layer, bool animating);
+
+GColor activity_indicator_layer_get_color(const ActivityIndicatorLayer *activity_indicator_layer);
+void activity_indicator_layer_set_color(ActivityIndicatorLayer *activity_indicator_layer, GColor color);
+
+uint8_t activity_indicator_layer_get_thickness(const ActivityIndicatorLayer *activity_indicator_layer);
+void activity_indicator_layer_set_thickness(ActivityIndicatorLayer *activity_indicator_layer, uint8_t thickness);
