@@ -2,6 +2,8 @@
 
 A "material design"-style activity indicator for Pebble.
 
+![](screenshot.gif)
+
 ## Installation
 
 ```
