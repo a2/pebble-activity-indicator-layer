@@ -2,7 +2,7 @@
     "name": "pebble-activity-indicator-layer",
     "description": "A \"material design\"-style activity indicator for Pebble.",
     "author": "Alexsander Akers <me@a2.io>",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "homepage": "https://github.com/a2/pebble-activity-indicator-layer",
     "repository": {
